@@ -37,7 +37,21 @@ from operator import itemgetter
 from typing import get_type_hints
 
 from . import bush, load_order
-from .balt import Progress
+try:
+    from .balt import Progress
+except ImportError:
+    # Fallback for headless mode when wx is not available
+    class Progress:
+        """Fallback Progress class for headless mode."""
+        def __init__(self, title):
+            self.title = title
+        def __enter__(self):
+            return self
+        def __exit__(self, exc_type, exc_val, exc_tb):
+            pass
+        def __call__(self, progress, message=None):
+            # No-op progress update for headless mode
+            pass
 from .bass import dirs, inisettings
 from .bolt import DefaultFNDict, FName, attrgetter_cache, deprint, dict_sort, \
     int_or_none, setattr_deep, sig_to_str, str_or_none, str_to_sig
