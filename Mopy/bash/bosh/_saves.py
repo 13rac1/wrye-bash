@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Tmp module, hence the underscore, to rip save classes out of bosh -
 Oblivion only . We need this split into cosaves and proper saves module and
 coded for rest of the games."""

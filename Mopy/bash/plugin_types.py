@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses data structures to represent plugin types - usually these are set
 as flags but file extension may play a role. The PluginFlag enum is used to
 define the various flags a plugin can have, while the MergeabilityCheck enum

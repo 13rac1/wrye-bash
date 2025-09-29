@@ -20,4 +20,6 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Bashed Patch business logic."""

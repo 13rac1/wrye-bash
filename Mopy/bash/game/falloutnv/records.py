@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module contains the falloutnv record classes."""
 # Make sure to import the FO3 MelRecord, since it's redefined to include the
 # quest_item header flag

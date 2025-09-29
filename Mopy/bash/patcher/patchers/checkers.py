@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module houses checkers. A checker is a patcher that verifies certain
 properties about records and either notifies the user or attempts a fix when it
 notices a problem."""

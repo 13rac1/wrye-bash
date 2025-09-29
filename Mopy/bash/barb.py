@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """Backup/restore Bash settings. Settings paths are defined in
 _init_settings_files().
 

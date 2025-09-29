@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """Menu items for the main and item menus of the saves tab - their window
 attribute points to SaveList singleton."""
 

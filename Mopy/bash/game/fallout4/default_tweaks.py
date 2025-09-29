@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 default_tweaks = {
     'Invalidate, Allow loose files [Fallout4].ini': {
         'Archive': {'bInvalidateOlderFiles': '1',

@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Pure Python implementation of some components of libloot-python needed by
 Wrye Bash. This file handles the evaluation of conditions.
 

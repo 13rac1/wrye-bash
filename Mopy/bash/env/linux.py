@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Encapsulates Linux-specific classes and methods."""
 
 import functools

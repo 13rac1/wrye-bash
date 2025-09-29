@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from os.path import join as _j
 
 from .. import GameInfo, ObjectIndexRange, _SFPluginFlag

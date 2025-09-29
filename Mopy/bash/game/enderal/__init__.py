@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..skyrim import ASkyrimGameInfo
 from ..store_mixins import SteamMixin
 from ...games_lo import TextfileGame

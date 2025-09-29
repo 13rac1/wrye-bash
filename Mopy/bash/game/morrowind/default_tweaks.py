@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module houses the default INI tweaks for TES III: Morrowind."""
 # Note: These are adapted from Yacoby's fork of Wrye Mash
 # The ~Default INIs are quite large, but kind of compensate for not having a

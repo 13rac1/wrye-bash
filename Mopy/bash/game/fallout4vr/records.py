@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module contains only the overrides of record classes needed for
 FO4VR."""
 

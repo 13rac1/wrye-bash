@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses very low-level classes for reading and writing bytes in plugin
 files."""
 import os

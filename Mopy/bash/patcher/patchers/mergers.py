@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module houses mergers. A merger is an import patcher that targets a
 list of entries, adding, removing (and, for more complex entries, changing)
 entries from multiple tagged plugins to create a final merged list. The goal is

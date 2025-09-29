@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module contains the skyrim SE record classes. The great majority are
 imported from skyrim."""
 from ...brec import MelEdid, MelFloat, MelLensShared, MelRecord, MelSet, \

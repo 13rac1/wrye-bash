@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 default_tweaks = {
     'Autosave, Never [Oblivion].ini': {
         'GamePlay': {'bSaveOnWait': '0', 'bSaveOnTravel': '0',

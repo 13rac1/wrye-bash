@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 __author__ = u'Ganda'
 
 from collections import defaultdict

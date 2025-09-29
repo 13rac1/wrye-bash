@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ....patcher.patchers.preservers import APreserver
 
 class ImportWeaponModificationsPatcher(APreserver):

@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses more complex building blocks for creating record definitions. The
 split from basic_elements.py is somewhat arbitrary, but generally elements in
 this file involve conditional loading and are much less commonly used. Relies

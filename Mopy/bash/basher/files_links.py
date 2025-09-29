@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 from .. import balt, bass, bolt, bosh, bush, env
 from ..balt import AppendableLink, MultiLink, ItemLink, OneItemLink
 from ..bolt import FNDict, GPath_no_norm, RefrIn

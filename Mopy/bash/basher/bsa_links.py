@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Menu items for the _item_ menu of the BSAs tab - their window attribute
 points to BsaList singleton."""
 

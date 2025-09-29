@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Menu items for the main and item menus of the ini tweaks tab - their window
 attribute points to IniList singleton."""
 

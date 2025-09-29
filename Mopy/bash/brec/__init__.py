@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """This module acts as the central import point for brec, a package housing
 classes used to build up the PBash record definitions for each game, as well as
 shared definitions for some common records and subrecords. Any code outside the

@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """This module contains some constants ripped out of basher.py"""
 from .. import bush
 from ..bolt import GPath

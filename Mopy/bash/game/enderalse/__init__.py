@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..enderal import AEnderalGameInfo
 from ..skyrimse import ASkyrimSEGameInfo
 from ..store_mixins import GOGMixin, SteamMixin

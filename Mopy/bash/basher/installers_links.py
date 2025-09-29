@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """Menu items for the _main_ menu of the installer tab - their window attribute
 points to the InstallersList singleton."""
 from itertools import chain

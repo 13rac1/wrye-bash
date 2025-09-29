@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses methods related to localization, including early setup code for
 detecting and setting locale."""
 

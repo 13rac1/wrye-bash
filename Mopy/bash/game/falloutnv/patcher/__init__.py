@@ -20,4 +20,6 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This package contains the Fallout New Vegas specific patchers."""

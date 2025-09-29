@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses classes for reading, manipulating and writing groups of records."""
 
 __author__ = 'Utumno'

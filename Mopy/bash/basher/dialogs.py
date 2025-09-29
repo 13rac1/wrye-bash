@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 import webbrowser
 from dataclasses import dataclass
 from typing import Iterable

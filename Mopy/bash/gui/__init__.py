@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module acts as the central import point for all GUI classes. Any code
 outside the gui package should import from here, so that classes may be moved
 around without breaking third-party code."""

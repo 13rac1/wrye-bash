@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Menu items for the _main_ menu of the mods tab - their window attribute
 points to ModList singleton."""
 from .dialogs import CreateNewPlugin

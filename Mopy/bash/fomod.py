@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """Requirement for further reading:
 https://github.com/wrye-bash/wrye-bash/wiki/%5Bdev%5D-Fomod-for-Devs
 

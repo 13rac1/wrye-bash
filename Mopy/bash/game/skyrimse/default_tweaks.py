@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..skyrim.default_tweaks import default_tweaks
 
 # Remove tweaks that don't apply to SSE

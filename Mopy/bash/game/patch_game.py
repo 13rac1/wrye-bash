@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Module housing a GameInfo subtype allowing to build a Bashed patch."""
 import importlib
 

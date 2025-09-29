@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 import importlib
 
 from .. import WS_COMMON_FILES, ObjectIndexRange

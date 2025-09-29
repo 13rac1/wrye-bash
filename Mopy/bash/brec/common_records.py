@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Builds on the rest of brec to provide full definitions and base classes for
 some commonly needed records."""
 

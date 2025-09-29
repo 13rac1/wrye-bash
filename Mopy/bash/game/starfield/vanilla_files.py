@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module lists the files installed in the Data folder in a completely
 vanilla Starfield setup."""
 import os

@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 default_tweaks = {
     'Archery, ArrowTilt 0.0 ~Default [Skyrim].ini': {
         'Combat': {'f1PArrowTiltUpAngle': '0.0',

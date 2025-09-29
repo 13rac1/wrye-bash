@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """GameInfo override for TES V: Skyrim VR."""
 from .. import ObjectIndexRange
 from ..skyrimse import ASkyrimSEGameInfo

@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..fallout4.default_tweaks import default_tweaks
 
 # Add new FO4VR-specific tweaks

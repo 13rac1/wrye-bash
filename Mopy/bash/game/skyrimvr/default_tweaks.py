@@ -21,4 +21,6 @@
 #
 # =============================================================================
 # noinspection PyUnresolvedReferences
+from __future__ import annotations
+
 from ..skyrimse.default_tweaks import *

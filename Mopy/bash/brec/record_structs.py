@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Houses abstract base classes and some APIs for representing records and
 subrecords in memory."""
 

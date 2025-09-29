@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..oblivion import AOblivionGameInfo
 from ..store_mixins import GOGMixin, SteamMixin
 from ...bolt import DefaultFNDict, FName

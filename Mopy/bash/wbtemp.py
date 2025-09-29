@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Encapsulates Wrye Bash's temporary dir/files handling, including early boot
 and the global .wbtemp directory.
 

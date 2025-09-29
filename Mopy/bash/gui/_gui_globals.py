@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Collection of data structures the gui package needs from outside. Keep
 those at minimum."""
 from copy import copy

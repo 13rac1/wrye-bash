@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 default_tweaks = {
     'Anisotropic Filtering, Disabled.ini': {
         'Display': {'iMaxAnisotropy': '0'}},

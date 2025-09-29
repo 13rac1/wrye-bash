@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module parses the command line that was used to start Wrye Bash."""
 
 import argparse

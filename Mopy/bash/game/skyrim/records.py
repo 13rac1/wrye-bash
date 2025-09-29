@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module contains the skyrim record classes."""
 from collections import defaultdict
 from itertools import repeat

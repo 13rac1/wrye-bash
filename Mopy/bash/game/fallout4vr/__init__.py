@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from .. import ObjectIndexRange
 from ..fallout4 import AFallout4GameInfo
 from ..store_mixins import SteamMixin

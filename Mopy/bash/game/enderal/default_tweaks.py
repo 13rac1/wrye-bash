@@ -21,6 +21,8 @@
 #
 # =============================================================================
 ##: deduplicate with skyrim.default_tweaks
+from __future__ import annotations
+
 default_tweaks = {
     'Archery, ArrowTilt 0.0 [Enderal].ini': {
         'Combat': {'f1PArrowTiltUpAngle': '0.0',

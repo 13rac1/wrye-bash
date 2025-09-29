@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Module that houses the official FOMOD ModuleConfig schema, version 5.1
 (which differs from 5.0 only in that it includes foseDependency)."""
 

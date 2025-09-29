@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """This module contains the Morrowind record classes. Also contains records
 and subrecords used for the saves - see MorrowindSaveHeader for more
 information."""

@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Builds on the basic elements defined in base_elements.py to provide
 definitions for some commonly needed subrecords."""
 from itertools import chain

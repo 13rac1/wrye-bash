@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 from ..enderal.default_tweaks import default_tweaks
 
 # Add new Enderal SE-specific tweaks

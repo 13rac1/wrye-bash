@@ -21,4 +21,6 @@
 #
 # =============================================================================
 # noinspection PyUnresolvedReferences
+from __future__ import annotations
+
 from ..oblivion.default_tweaks import default_tweaks

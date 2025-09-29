@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Module providing mixin classes to set some common defaults for games from
 various stores."""
 from . import GameInfo, WS_COMMON_FILES

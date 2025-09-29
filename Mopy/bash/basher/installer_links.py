@@ -21,6 +21,8 @@
 #
 # =============================================================================
 
+from __future__ import annotations
+
 """Installer*: Menu items for the __item__ menu of the installer tab. Their
 window attribute points to the InstallersList singleton. Check before using
 IniList singleton - can be None (ini panel not shown).

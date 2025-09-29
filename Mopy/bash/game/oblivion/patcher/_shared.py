@@ -20,6 +20,8 @@
 #  https://github.com/wrye-bash
 #
 # =============================================================================
+from __future__ import annotations
+
 """Temp module to encapsulate some shared dependencies left over from splitting
 special.py."""
 
