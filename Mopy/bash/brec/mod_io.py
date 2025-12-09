@@ -353,12 +353,12 @@ class ModReader(object):
 
     def readString(self, size, *debug_strs):
         """Read string from file, stripping zero terminator."""
-        return u'\n'.join(decoder(x,bolt.pluginEncoding,avoidEncodings=(u'utf8',u'utf-8')) for x in
+        return u'\n'.join(decoder(x,bolt.pluginEncoding,avoidEncodings=()) for x in
                           bolt.cstrip(self.read(size, *debug_strs)).split(b'\n'))
 
     def readStrings(self, size, *debug_strs):
         """Read strings from file, stripping zero terminator."""
-        return [decoder(x,bolt.pluginEncoding,avoidEncodings=(u'utf8',u'utf-8')) for x in
+        return [decoder(x,bolt.pluginEncoding,avoidEncodings=()) for x in
                 self.read(size, *debug_strs).rstrip(null1).split(null1)]
 
     def unpack(self, struct_unpacker, size, *debug_strs):

@@ -616,7 +616,7 @@ class MelUnicode(MelString):
 
     def load_bytes(self, ins, size_, *debug_strs):
         return '\n'.join(
-            decoder(x, self.encoding, avoidEncodings=('utf8', 'utf-8')) for x
+            decoder(x, self.encoding, avoidEncodings=()) for x
             in bolt.cstrip(ins.read(size_, *debug_strs)).split(b'\n'))
 
 #------------------------------------------------------------------------------

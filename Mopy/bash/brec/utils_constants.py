@@ -301,7 +301,7 @@ class FixedString(str):
             decoded_str = target_str
         else:
             decoded_str = '\n'.join(
-                decoder(x, cls._str_encoding, avoidEncodings=('utf8', 'utf-8'))
+                decoder(x, cls._str_encoding, avoidEncodings=())
                 for x in cstrip(target_str).split(b'\n'))
         new_str = super(FixedString, cls).__new__(cls, decoded_str)
         new_str._str_length = str_length
